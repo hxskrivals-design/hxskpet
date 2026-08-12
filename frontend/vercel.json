@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_API_URL": "@hxskpet_api_url",
+    "VITE_FRONTEND_URL": "@hxskpet_frontend_url"
+  },
+  "envPrefix": "VITE_"
+}

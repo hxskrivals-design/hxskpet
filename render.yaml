@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: hxskpet-api
+    root_dir: api
+    buildCommand: npm install
+    startCommand: npm start
+    env: node
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://hxsksab_db_user:AeZW0ujzo0OoJDws@cluster0.m8bgl4q.mongodb.net/bloxyspin?appName=Cluster0
+      - key: JWT_SECRET
+        value: your_jwt_secret_key_here
+      - key: NODE_ENV
+        value: production
